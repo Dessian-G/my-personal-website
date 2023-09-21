@@ -93,7 +93,7 @@ html
 img {
   max-width: 100%;
   height: auto;
-  width: 240px;
+  width: 250px;
   margin-right: 1em;
   margin-bottom: 1em;
   float: left;
@@ -103,7 +103,7 @@ img {
 footer {
   box-sizing: border-box;
   position: fixed;
-  height: 70px;
+  height: 80px;
   bottom: 0;
   left: 0;
   right: 0;
@@ -114,4 +114,17 @@ footer {
   float: right;
   
 }
+footer .media-link {
+  height: 40px;
+}
+
+footer a {
+  margin-right: 14px;
+  text-decoration: none;
+}
+
+footer a:last-child {
+  margin-right: 0;
+}
+
 
