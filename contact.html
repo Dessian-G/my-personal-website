@@ -16,9 +16,9 @@
         /* Header styles */
         header {
             background-color: #482a9a;
-            background-image: url();
+            background-image: url(/my-personal-website/pexels-veeterzy-303383.jpg);
             color: #fff;
-            padding: 20px;
+            padding: 1px;
             text-align: center;
             z-index: 2;
         }
@@ -41,7 +41,7 @@
 
         /* Sidebar styles */
         .sidebar {
-            flex-basis: 300px;
+            flex-basis: 850px;
             background-color: #218553;
             padding: 20px;
             z-index: 1;
@@ -49,7 +49,7 @@
 
         /* Footer styles */
         footer {
-            background-color: #1d626c;
+            background-color: #168434;
             color: #fff;
             padding: 20px;
             text-align: center;
@@ -62,7 +62,7 @@
                 flex-direction: column;
             }
             .main-content {
-                margin-right: 0;
+                margin-right: 2;
             }
             .sidebar {
                 flex-basis: 100%;
@@ -71,7 +71,7 @@
 
         @media (max-width: 480px) {
             header, footer {
-                padding: 10px;
+                padding: 20px;
             }
         }
     </style>
@@ -92,12 +92,25 @@
                 <input type="text" id="name" name="name" required>
                 <label for="email">Email:</label>
                 <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <input type="text" id="message" name="message" required>
                 <input type="submit" value="Submit">
             </form>
         </aside>
     </div>
     <footer>
-        &copy; 2023 Dessian Virtual art. All rights reserved.
+        <span class="name">&copy; 2023 Dessian Website. All rights reserved</span>
+      
+      
+          <a href="https://facebook.com" target="_blank">
+            <img class="media-link" src="https://vigilant-lumiere-2756fa.netlify.app/images/facebook.svg" alt="">
+          </a>
+          <a href="https://linkedin.com" target="_blank">
+            <img class="media-link" src="https://vigilant-lumiere-2756fa.netlify.app/images/linkedin.svg" alt="">
+          </a>
+          <a href="https://twitter.com" target="_blank">
+            <img class="media-link" src="https://vigilant-lumiere-2756fa.netlify.app/images/twitter.svg" alt="">
+          </a>
     </footer>
 </body>
 </html>
