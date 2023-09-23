@@ -15,13 +15,18 @@
 
         /* Header styles */
         header {
-            background-color: #482a9a;
+            background-color: rgb(14, 94, 51); 
             background-image: url(/my-personal-website/pexels-veeterzy-303383.jpg);
             color: #fff;
-            padding: 1px;
+            padding: 2px;
             text-align: center;
             z-index: 2;
+            font-size: 2rem;
         }
+span {
+  font-weight: bold; /* Make the text bold */
+  font-size: 14px; /* Here I Set the font size */
+}
 
         /* Container styles */
         .container {
@@ -47,16 +52,38 @@
             z-index: 1;
         }
 
-        /* Footer styles */
+        /* I added Footer styles here */
         footer {
             background-color: #168434;
-            color: #fff;
+            color: #100404;
             padding: 20px;
             text-align: center;
             clear: both;
         }
+        button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    /* Advanced CSS rule: here my hover effects */
+    transition: background-color 0.5s ease-in-out;
+}
+button:hover {
+    background-color: #555;
+}
+input[type="text"]:hover,
+input[type="email"]:hover,
+textarea:hover {
+    border-color: #555;
+}
 
-        /* Media queries for responsiveness */
+.contact-form {
+        width: 100%; /* Make the form full-width on smaller screens */
+    }
+
+        /* here my Media queries for responsiveness */
         @media (max-width: 768px) {
             .container {
                 flex-direction: column;
@@ -74,19 +101,35 @@
                 padding: 20px;
             }
         }
+        
     </style>
 </head>
 <body>
     <header>
-        <h1> Contact us for more information </h1>
+        
+            <span class="name">Dessian Guiro</span>
+            <nav class="links">
+        
+            
+                    
+                    <a class="active" href="index.html">Home</a>
+                    <a href="about.html">About</a>
+                    <a href="portfolio.html">Portfolio</a>
+                    <a href="contact.html">Contact</a>
+                
+            </nav>
+            
+        
+       
     </header>
+    <main> <h1> Contact us for more information </h1></main>
     <div class="container">
        
        
         
         <aside class="sidebar">
             <h2>Contact Us</h2>
-            <p>Fill out the form to get updates and information about us service:</p>
+            <p>Fill out the form to get updates and information about our services:</p>
             <form action="submit.html" method="post">
                 <label for="name">Name:</label>
                 <input type="text" id="name" name="name" required>
