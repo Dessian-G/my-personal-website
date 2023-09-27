@@ -204,6 +204,7 @@ textarea:hover {
 border-color: #555;
 }
 
+
 .contact-form {
 width: 100%; /* Make the form full-width on smaller screens */
 }
@@ -288,6 +289,15 @@ img {
   margin-right: 1em;
   margin-bottom: 1em;
   float: left;
+}
+#hearder {
+  color: blue;
+  font-size: 24px;
+}
+#btn{
+  background-color: #218553;
+  color: white;
+  padding: 10px;
 }
 
 
