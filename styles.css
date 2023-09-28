@@ -4,6 +4,9 @@ body{
   
   color: black;
   margin:0 auto;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
   
 }
 
@@ -30,8 +33,11 @@ header {
 }
 span {
 font-weight: bold; /* Make the text bold */
-font-size: 14px; /* Here I Set the font size */
+font-size: 14px;
+ /* Here I Set the font size */
+ 
 }
+
 
 .quote {
   font-family: 'Times New Roman', Times, serif;
@@ -151,13 +157,8 @@ footer a {
 
 
 
- /* Base on body here */
- body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-}
-
+ 
+ 
 
 /* Container styles */
 .container {
@@ -289,6 +290,9 @@ img {
   margin-right: 1em;
   margin-bottom: 1em;
   float: left;
+
+  width: 150px; 
+  height: auto; 
 }
 #hearder {
   color: blue;
@@ -298,7 +302,9 @@ img {
   background-color: #218553;
   color: white;
   padding: 10px;
+  height: 10vh;
+    width: 10vw;
 }
-
+  
 
 
